@@ -11,6 +11,9 @@ Replace the Project Title
 Describe what your project is about and what it does
 V1 - This project is about making changes on the bikeshare.py file and commiting this changes in our local and remote repo.
 We ask the users to specify a city, month, and day to analyze. The options are : City ( Chicago, New York, Washington), Month ( January- December), and day (1-31).
+V2- Added filters like:
+- MonthsWithNot30Days = ["february", "april", " june", "september", "november"]
+- Invalid data : city, months, days 
 
 ### Files used
 Include the files used
