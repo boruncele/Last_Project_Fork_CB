@@ -9,7 +9,8 @@ Replace the Project Title
 
 ### Description
 Describe what your project is about and what it does
-This project is about making changes on the bikeshare.py file and commiting this changes in our local and remote repo.
+V1 - This project is about making changes on the bikeshare.py file and commiting this changes in our local and remote repo.
+We ask the users to specify a city, month, and day to analyze. The options are : City ( Chicago, New York, Washington), Month ( January- December), and day (1-31).
 
 ### Files used
 Include the files used
