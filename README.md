@@ -14,6 +14,7 @@ We ask the users to specify a city, month, and day to analyze. The options are :
 V2- Added filters like:
 - MonthsWithNot30Days = ["february", "april", " june", "september", "november"]
 - Invalid data : city, months, days 
+V3 Added friend to make it seem personal 
 
 ### Files used
 Include the files used
