@@ -23,14 +23,15 @@ MONTHS = {"all":0,
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
-
+#Added Friend throughout file
     Returns:
         (str) city - name of the city to analyze
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (int) day - number of the day, or "all" to apply no day filter
     """
     print('Hello Friend! Let\'s explore some US bikeshare data!')
-    #Added Friend throughout file
+    print('Before we begin, this experiement is to see what my friend would choose.')
+    
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     print("Please choose between Chicago, New York City, and Washington.")
     print("Type a city name below:")
