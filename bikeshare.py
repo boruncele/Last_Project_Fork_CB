@@ -352,6 +352,7 @@ def show_5_lines_of_data(df):
             index += 5
                 
         elif user_input.lower() == "no":
+            print ("That's okay friend!")
             break
         else:
             print("Invalid reponse. Must be yes or no. Would you like to see the next 5 lines of raw data? (yes or no)")
@@ -371,9 +372,13 @@ def main():
         show_5_lines_of_data(df)
         
         restart = input('\nWould you like to restart? Enter yes or no.\n')
-        if restart.lower() != 'yes':
+        if restart.lower() == "no":
+            print("Bye Friend. See you next time!")
             break
 
+        elif restart.lower() == 'yes':
+            print("let's do it again!")
+            print("")
 
 if __name__ == "__main__":
 	main()
